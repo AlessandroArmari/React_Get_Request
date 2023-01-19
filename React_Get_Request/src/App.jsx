@@ -15,9 +15,12 @@ function App() {
 
     try {
       const response = await fetch(
+        "https://1ed3f2d0-25a5-433b-97a4-40290bff2df6.mock.pstmn.io/myorders"
         // ---> the return of fetch() is a Promise (here called: response)
         //---> await= wait for the Promise result (the data stored in this URL!)
-        "https://1ed3f2d0-25a5-433b-97a4-40290bff2df6.mock.pstmn.io/myorders"
+
+        //"https://fe94a1ac-cd76-43b4-9473-a36e922a754c.mock.pstmn.io/menu"
+        //---> another GET from a MOCK SERVER I created!
       );
 
       // --->response has a "property "ok"
